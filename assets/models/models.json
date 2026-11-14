@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-11-14T09:19:08.680Z",
+  "models": [
+    {
+      "file": "aqvae.stl",
+      "source": "AQVAE.stl",
+      "triangles": 924,
+      "droppedTriangles": 0,
+      "sizeMm": {
+        "width": 100,
+        "height": 100,
+        "depth": 178.42
+      },
+      "unit": "mm"
+    },
+    {
+      "file": "lateres.stl",
+      "source": "LATERES.stl",
+      "triangles": 4828,
+      "droppedTriangles": 0,
+      "sizeMm": {
+        "width": 52,
+        "height": 52,
+        "depth": 50
+      },
+      "unit": "mm"
+    },
+    {
+      "file": "lex.stl",
+      "source": "LEX.stl",
+      "triangles": 4508,
+      "droppedTriangles": 0,
+      "sizeMm": {
+        "width": 53,
+        "height": 53,
+        "depth": 50
+      },
+      "unit": "mm"
+    }
+  ]
+}

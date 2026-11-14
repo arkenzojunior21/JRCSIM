@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Simulator latihan Aquaduct Romana - Java Robot Contest XIV" />
+    <title>JRCSIM — Aquaduct Romana</title>
+    <script type="module" crossorigin src="./assets/index-S9dz4Hq_.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DFqOEbuv.css">
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <div id="hud">
+      <header class="hud-top">
+        <div class="brand">
+          <strong>JRCSIM</strong>
+          <span>Aquaduct Romana</span>
+        </div>
+        <div class="hud-actions">
+          <div class="segmented" id="game-modes" role="group" aria-label="Mode permainan">
+            <button type="button" data-gamemode="free" class="active">Free Test</button>
+            <button type="button" data-gamemode="qualifying">Penyisihan</button>
+          </div>
+          <div class="segmented" id="drive-modes" role="group" aria-label="Mode penggerak">
+            <button type="button" data-mode="tank" class="active">Tank</button>
+            <button type="button" data-mode="arcade">Arcade</button>
+            <button type="button" data-mode="mecanum">Mecanum</button>
+          </div>
+          <button id="session-start" type="button">Mulai</button>
+          <button id="session-retry" type="button">Retry</button>
+          <button id="session-reset" type="button">Reset</button>
+          <button id="camera-reset" type="button">Reset kamera</button>
+          <button id="camera-lock" type="button">Kunci kamera</button>
+          <button id="open-settings" type="button">Pengaturan</button>
+        </div>
+      </header>
+
+      <div class="hud-side">
+        <section class="panel">
+          <div class="stat-row">
+            <span>Fase</span>
+            <strong id="phase">SIAP</strong>
+          </div>
+          <div class="stat-row big">
+            <span>Waktu</span>
+            <strong id="timer">04:00</strong>
+          </div>
+          <div class="stat-row big">
+            <span>Skor</span>
+            <strong id="score">0</strong>
+          </div>
+          <p id="score-detail" class="score-detail">LEX 0 · LATERES 0 · Transfer 0 · Finish 0</p>
+        </section>
+        <section class="panel">
+          <h3>Objek</h3>
+          <ul id="object-status" class="status-list"></ul>
+        </section>
+        <section class="panel">
+          <h3>Gate</h3>
+          <ul id="gate-status" class="status-list"></ul>
+        </section>
+      </div>
+
+      <footer class="hud-bottom">
+        <div class="lf-card">
+          <span class="lf-label">Line Follower</span>
+          <input type="range" id="lf-speed" min="0.05" max="0.5" step="0.01" value="0.32" />
+          <span id="lf-speed-value">0,32 m/s</span>
+          <button id="lf-toggle" type="button">Mulai LF</button>
+        </div>
+        <span id="status">Arena siap</span>
+        <span id="drive-status" class="drive-status">Tank · 0,00 m/s</span>
+        <span class="hint" id="control-hint">Space capit (klik) · F/C lengan (klik) · L LF · R reset · T retry · P jeda</span>
+      </footer>
+    </div>
+
+    <div id="results" class="results hidden">
+      <div class="results-card">
+        <h2 id="results-title">Sesi selesai</h2>
+        <p id="results-reason" class="results-reason"></p>
+        <dl id="results-score" class="results-score"></dl>
+        <p id="results-best" class="results-best"></p>
+        <div class="results-actions">
+          <button id="results-retry" type="button">Coba lagi</button>
+          <button id="results-close" type="button">Tutup</button>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
