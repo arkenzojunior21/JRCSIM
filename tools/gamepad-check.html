@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JRCSIM — Cek Gamepad</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+        --panel: #0d131b;
+        --border: rgba(148, 180, 215, 0.24);
+        --text: #e8eef6;
+        --muted: #93a5ba;
+        --accent: #4cc2ff;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: #070b11;
+        color: var(--text);
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+      h1 { font-size: 20px; margin: 0; letter-spacing: 0.03em; }
+      p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.6; }
+      .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; }
+      .card { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
+      .card h2 { font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 0 0 12px; }
+      .pad-name { color: var(--accent); font-size: 15px; margin-bottom: 4px; word-break: break-all; }
+      .pad-meta { font-size: 12px; color: var(--muted); margin-bottom: 12px; }
+      .axis { display: grid; grid-template-columns: 64px 1fr 64px; gap: 10px; align-items: center; font-size: 12px; padding: 3px 0; }
+      .axis-track { position: relative; height: 10px; background: #18222c; border-radius: 5px; overflow: hidden; }
+      .axis-fill { position: absolute; top: 0; bottom: 0; left: 50%; width: 0; background: var(--accent); }
+      .axis-value { text-align: right; font-variant-numeric: tabular-nums; color: var(--muted); }
+      .buttons { display: grid; grid-template-columns: repeat(9, 1fr); gap: 6px; margin-top: 8px; }
+      .button-cell {
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        text-align: center;
+        padding: 6px 0;
+        font-size: 11px;
+        color: var(--muted);
+      }
+      .button-cell.on { background: rgba(76, 194, 255, 0.18); border-color: var(--accent); color: var(--accent); }
+      .events { font-family: ui-monospace, 'Cascadia Code', Consolas, monospace; font-size: 11px; color: var(--muted); white-space: pre-wrap; max-height: 180px; overflow: auto; }
+      .empty { color: var(--muted); font-size: 13px; }
+    </style>
+  </head>
+  <body>
+    <h1>JRCSIM — Cek Gamepad</h1>
+    <p>
+      Sambungkan gamepad PS3/PS4 lalu tekan sembarang tombol. Halaman ini menampilkan nama controller,
+      nilai sumbu mentah, dan status tombol. Gunakan angka di sini untuk mengatur deadzone dan sensitivitas di
+      menu Pengaturan JRCSIM.
+    </p>
+    <div class="grid">
+      <section class="card">
+        <h2>Controller</h2>
+        <div id="pads" class="empty">Menunggu gamepad…</div>
+      </section>
+      <section class="card">
+        <h2>Sumbu &amp; Tombol</h2>
+        <div id="detail" class="empty">Belum ada controller aktif.</div>
+      </section>
+      <section class="card">
+        <h2>Riwayat Perubahan</h2>
+        <div id="events" class="events"></div>
+      </section>
+    </div>
+    <script>
+      const padsEl = document.getElementById('pads');
+      const detailEl = document.getElementById('detail');
+      const eventsEl = document.getElementById('events');
+      let lastKey = '';
+
+      function logChange(message) {
+        const stamp = new Date().toLocaleTimeString('id-ID');
+        eventsEl.textContent = `[${stamp}] ${message}\n` + eventsEl.textContent;
+      }
+
+      function connectedPads() {
+        return Array.from(navigator.getGamepads ? navigator.getGamepads() : []).filter(Boolean);
+      }
+
+      function renderPadList(pads) {
+        if (pads.length === 0) {
+          padsEl.className = 'empty';
+          padsEl.textContent = 'Menunggu gamepad…';
+          return;
+        }
+        padsEl.className = '';
+        padsEl.innerHTML = pads
+          .map(
+            (pad, index) =>
+              `<div class="pad-name">${index + 1}. ${pad.id}</div>` +
+              `<div class="pad-meta">index slot: ${pad.index} · mapping: ${pad.mapping || 'non-standar'} · ` +
+              `${pad.connected ? 'tersambung' : 'terputus'}</div>`,
+          )
+          .join('');
+      }
+
+      function renderDetail(pad) {
+        if (!pad) {
+          detailEl.className = 'empty';
+          detailEl.textContent = 'Belum ada controller aktif.';
+          return;
+        }
+        detailEl.className = '';
+        const axes = pad.axes
+          .map((value, index) => {
+            const percent = Math.abs(value) * 100;
+            const left = value >= 0 ? 50 : 50 - percent / 2;
+            return (
+              `<div class="axis"><span>Sumbu ${index}</span>` +
+              `<div class="axis-track"><div class="axis-fill" style="left:${left}%;width:${percent / 2}%"></div></div>` +
+              `<span class="axis-value">${value.toFixed(2)}</span></div>`
+            );
+          })
+          .join('');
+        const buttons = pad.buttons
+          .map(
+            (button, index) =>
+              `<div class="button-cell${button.pressed ? ' on' : ''}">${index}` +
+              `<br />${button.value.toFixed(1)}</div>`,
+          )
+          .join('');
+        detailEl.innerHTML = `${axes}<div class="buttons">${buttons}</div>`;
+      }
+
+      function loop() {
+        const pads = connectedPads();
+        renderPadList(pads);
+        const pad = pads[0] ?? null;
+        renderDetail(pad);
+
+        const key = pad
+          ? pad.id +
+            '|' +
+            pad.axes.map((value) => value.toFixed(2)).join(',') +
+            '|' +
+            pad.buttons.map((button) => (button.pressed ? 1 : 0)).join('')
+          : 'none';
+        if (key !== lastKey) {
+          if (lastKey !== '') {
+            const changed = [];
+            if (pad) {
+              pad.buttons.forEach((button, index) => {
+                if (button.pressed) changed.push(`tombol ${index}`);
+              });
+              pad.axes.forEach((value, index) => {
+                if (Math.abs(value) > 0.4) changed.push(`sumbu ${index} ${value.toFixed(2)}`);
+              });
+            }
+            logChange(changed.length > 0 ? changed.join(' · ') : 'input berubah');
+          }
+          lastKey = key;
+        }
+        requestAnimationFrame(loop);
+      }
+
+      window.addEventListener('gamepadconnected', (event) => {
+        logChange(`tersambung: ${event.gamepad.id}`);
+      });
+      window.addEventListener('gamepaddisconnected', (event) => {
+        logChange(`terputus: ${event.gamepad.id}`);
+      });
+
+      requestAnimationFrame(loop);
+    </script>
+  </body>
+</html>

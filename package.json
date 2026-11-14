@@ -1,0 +1,35 @@
+{
+  "name": "jrcsim",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Simulator latihan Aquaduct Romana - Java Robot Contest XIV",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "assets:extract": "node scripts/setup-assets.mjs",
+    "assets:build": "node scripts/build-assets.mjs",
+    "assets:robots": "node scripts/build-robots.mjs",
+    "assets": "npm run assets:extract && npm run assets:build"
+  },
+  "dependencies": {
+    "three": "^0.187.0",
+    "zustand": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/three": "^0.187.0",
+    "fflate": "^0.8.3",
+    "occt-import-js": "^0.0.23",
+    "sharp": "^0.35.5",
+    "typescript": "^5.7.3",
+    "vite": "^6.4.6",
+    "vitest": "^3.2.7"
+  }
+}

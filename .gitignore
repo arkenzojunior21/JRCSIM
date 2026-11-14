@@ -1,0 +1,11 @@
+node_modules/
+dist/
+assets-src/
+3d file/
+Track and Regulation/
+tools/*.png
+tools/*.jpg
+tools/node-runtime/
+tools/*.zip
+*.log
+.DS_Store

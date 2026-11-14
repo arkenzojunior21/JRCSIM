@@ -1,0 +1,663 @@
+Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+
+                   AQUADUCT ROMANA
+
+I. PENDAHULUAN
+
+A. Latar Belakang
+
+Perkembangan teknologi digital yang berlangsung secara cepat telah mendorong
+
+perubahan pada berbagai sektor kehidupan, mulai dari industri, pendidikan, hingga layanan
+
+publik. Dalam era transformasi teknologi saat ini, kemampuan untuk memahami,
+
+mengembangkan, dan memanfaatkan teknologi menjadi salah satu keterampilan penting
+
+yang perlu dimiliki generasi muda. Salah satu bidang yang terus menunjukkan
+
+perkembangan signifikan adalah robotika, yang kini berperan dalam mendukung berbagai
+
+aktivitas manusia melalui penerapan sistem otomatis, kecerdasan buatan, dan teknologi
+
+kendali modern.
+
+Seiring meningkatnya ketertarikan pelajar dan mahasiswa terhadap bidang robotika,
+
+kebutuhan akan wadah pengembangan kompetensi juga semakin besar. Meskipun
+
+demikian, tidak semua peserta didik memiliki kesempatan yang sama untuk memperoleh
+
+pengalaman praktis, menguji kemampuan teknis, maupun berinteraksi dengan komunitas
+
+yang memiliki minat serupa. Kondisi tersebut dapat membatasi proses pengembangan
+
+keterampilan dan inovasi yang sebenarnya memiliki potensi besar untuk dikembangkan.
+
+Oleh karena itu, diperlukan kegiatan yang mampu menjadi sarana pembelajaran
+
+sekaligus pengembangan kemampuan secara nyata. Kompetisi robotika dapat menjadi
+
+media yang efektif untuk melatih keterampilan teknis, kemampuan pemecahan masalah,
+
+kreativitas, komunikasi, serta kerja sama tim melalui tantangan yang aplikatif dan relevan
+
+dengan perkembangan teknologi saat ini.
+
+Sebagai upaya untuk mendukung pengembangan bidang robotika yang inovatif dan
+
+kompetitif, Himpunan Mahasiswa Teknik Elektronika PENS menyelenggarakan kegiatan
+
+bernama "Java Robot Contest XIV". Kegiatan ini diharapkan dapat menjadi wadah bagi
+
+pelajar dan mahasiswa untuk mengembangkan kompetensi di bidang robotika,
+       Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+
+   menyalurkan ide-ide kreatif, serta memperluas jejaring dan kolaborasi antarpeserta.
+   Melalui kompetisi ini, diharapkan lahir berbagai inovasi yang dapat memberikan
+   kontribusi positif bagi perkembangan teknologi dan sumber daya manusia Indonesia di
+   masa depan.
+
+B. Tema
+          Acara JAVA ROBOT CONTEST XIV bertemakan "The Gladiator at Ancient
+
+   Roman Times" (Rise as Engineers, Fight as Gladiators) yang diimplementasikan ke
+   dalam rangkaian kompetisi robotika. Tema ini melambangkan semangat keberanian,
+   ketangguhan, disiplin, pengorbanan, dan strategi dalam menghadapi berbagai tantangan
+   kompetisi. Seperti gladiator yang berjuang di arena untuk meraih kemenangan, peserta
+   diharapkan mampu tampil sebagai engineer yang kreatif, adaptif, dan inovatif dalam
+   merancang, membangun, serta mengembangkan teknologi robotika. Melalui jargon
+   tersebut, JAVA ROBOT CONTEST XIV menegaskan bahwa setiap peserta tidak hanya
+   dituntut untuk mengasah kemampuan teknis, tetapi juga membangun karakter kompetitif,
+   pantang menyerah, dan menjunjung tinggi sportivitas dalam setiap proses perlombaan.
+
+C. Deskripsi Perlombaan
+          Aquaduct Romana adalah ajang perlombaan simulasi rekonstruksi megastruktur
+
+   masa lampau yang menuntut kolaborasi taktis antara Robot Transporter dan Line
+   Follower Transporter. Robot Transporter bertindak sebagai perintis jalur yang bertugas
+   memperkuat infrastruktur air dengan menyusun balok pada setiap tabung di sepanjang sisi
+   trek, membuka katup palang air, serta menyambungkan tanjakan yang terpisah.
+
+          Setelah jalur selesai dibangun, Line Follower Transporter meluncur membawa balok
+   biru simbolisasi aliran air kehidupan untuk didistribusikan secara estafet pada setiap titik
+   tujuan. Ini adalah panggung pembuktian sinkronisasi mekanik, ketepatan logika, dan
+   ketahanan navigasi demi mengalirkan kembali kehidupan ke penjuru kota.
+            Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+
+II. PANDUAN UMUM
+    A. Persyaratan Umum
+            1. Setiap tim dilarang menggunakan nama tim yang memiliki unsur penghinaan,
+                 menyinggung SARA (Suku, Agama, Ras, dan Antargolongan), asusila dsb.
+            2. Setiap anggota tim dilarang berkata yang mengandung unsur penghinaan,
+                 menyinggung SARA (Suku, Agama, Ras dan Antargolongan), asusila dan
+                 merugikan pihak lain.
+            3. Setiap anggota tim dilarang mengganggu, melecehkan, atau menyerang peserta lain
+                 dalam bentuk perilaku maupun lisan
+            4. Semua robot peserta harus telah melalui tahap registrasi ulang, pemeriksaan
+                 spesifikasi, dan disetujui oleh tim checker terlebih dahulu, sebelum digunakan
+                 dalam pertandingan.
+            5. Robot yang dapat digunakan dalam pertandingan hanya robot yang telah
+                 didaftarkan oleh tim yang bersangkutan dan telah melalui checker. Tidak
+                 diperkenankan saling bertukar robot antar tim.
+            6. Setelah melewati pengecekan di checker, peserta diperbolehkan untuk
+                 memperbaiki robotnya tetapi dilarang untuk mengganti bagian apapun pada robot,
+                 seperti komponen elektronika dan chassis dari robot.
+            7. Peserta dilarang memberikan bantuan dorongan pada robot ketika start.
+            8. Robot dijalankan oleh 1 (satu) orang operator dari anggota tim.
+            9. Dilarang melakukan pergantian operator selama ronde pertandingan berlangsung.
+                 Pergantian operator hanya diperbolehkan saat pergantian ronde.
+            10. Peserta maupun robot dilarang merusak arena dan objek yang digunakan dalam
+                 pertandingan.
+       Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+
+        11. Seluruh peserta diharap untuk tidak berpindah dari ruang pitstop yang telah
+            ditentukan oleh panitia, apabila berpindah pitstop maka panitia tidak bertanggung
+            jawab atas informasi yang tidak tersampaikan kepada peserta.
+
+        12. Jadwal pertandingan dapat dilihat pada plot yang telah ditentukan saat Technical
+            Meeting (TM).
+
+        13. Saat pertandingan dimulai, ukuran dan bentuk robot yang digunakan diperbolehkan
+            berubah. Contoh : desain mekanis lengan robot yang mengubah ukuran robot saat
+            dioperasikan.
+
+B. Persyaratan Peserta
+        1. Peserta Java Robot Contest XIV harus berasal dari satu sekolah atau institusi yang
+            sama.
+        2. Setiap tim berisikan maksimal 3 orang siswa SMA/SMK/MA sederajat, yang terdiri
+            dari:
+               a. Satu peserta sebagai operator robot Transporter.
+               b. Satu peserta sebagai operator robot Line Follower Transporter.
+               c. Satu peserta membawa bendera retry.
+        3. Setiap peserta hanya diperkenankan terdaftar pada 1 (satu) tim saja (dalam kategori
+            yang sama).
+        4. Dalam setiap pertandingan, 3 orang peserta dari masing-masing tim diperkenankan
+            memasuki arena pertandingan (game field) dengan syarat robot telah lolos
+            pemeriksaan checker & semua peserta wajib menggunakan kaos kaki.
+        5. Peserta diperbolehkan memasuki track apabila mendapatkan izin dari wasit.
+        6. Anggota tim wajib menggunakan ID Card Java Robot Contest XIV, sesuai dengan
+            identitas masing-masing anggota.
+Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+
+C. Timeline Acara                    Agenda                Tempat
+                  Waktu        Technical Meeting  Ruang Kelas D4 PENS
+
+           12 Desember 2026        Open Track          Hall D4 PENS
+           18 Desember 2026    Opening Ceremony        Hall D4 PENS
+           19 Desember 2026                            Hall D4 PENS
+        19 - 20 Desember 2026      Competition         Hall D4 PENS
+           20 Desember 2026         Awarding
+
+III. PANDUAN PERLOMBAAN
+      A. Spesifikasi Robot
+          1. Robot yang digunakan adalah robot Line Follower Microcontroller Transporter dan
+              robot Transporter.
+          2. Robot Transporter adalah robot yang dioperasikan oleh satu peserta anggota tim yang
+              bertugas sebagai operator, robot menggunakan joystick/pengendali yang terpisah dari
+              badan robot dan harus dikontrol secara wireless.
+          3. Robot Line Follower Transporter adalah robot yang mampu berjalan sendiri tanpa
+              bantuan operator dan bisa digunakan membawa dan mengambil objek.
+          4. Pada robot Line Follower Transporter dan Transporter, robot dirancang sedemikian
+              rupa untuk bisa mengambil dan memindahkan 1 buah kubus menggunakan gripper.
+          5. Mekanisme gripper pada setiap robot tidak diperbolehkan terpisah dari badan robot.
+              (Contoh: robot memiliki sebuah mekanisme untuk mentransfer objek bersamaan
+              dengan bagian robot.)
+          6. Jenis dan jumlah sensor yang digunakan tidak dibatasi.
+Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+
+7. Jenis dan jumlah aktuator yang digunakan tidak dibatasi.
+
+8. Jumlah Gripper tidak dibatasi.
+
+9. Masing-masing robot hanya boleh memiliki 1 Mikrokontroler.
+
+10. 2 robot tersebut hanya untuk 1 tim untuk seluruh pertandingan.
+
+11. Dimensi maksimum dari robot Transporter adalah :
+
+a. Panjang : 30 cm
+
+b. Lebar          : 30 cm
+
+c. Tinggi : Tidak dibatasi
+
+12. Dimensi maksimum dari robot Line Follower Transporter adalah :
+
+a. Panjang : 25 cm
+
+b. Lebar          : 25 cm
+
+c. Tinggi : Tidak dibatasi
+
+13. Dimensi ini merupakan dimensi keseluruhan dari robot termasuk roda, sensor, gripper,
+
+dan semua komponen robot lainnya.
+
+14. Catu daya robot adalah baterai, Jenis baterai tidak dibatasi.
+
+15. Tegangan maksimal catu daya masing-masing robot adalah 12 VDC dengan toleransi
+
++1 VDC.
+
+16. Robot yang digunakan tidak merusak, tidak membahayakan, dan tidak membawa
+
+cairan berbahaya
+
+17. Panitia tidak bertanggung jawab dengan terjadinya interferensi cahaya dari luar
+
+(misalnya, dari lampu blitz kamera, cahaya matahari, lampu sorot ruangan, dll). Semua
+
+variabel tersebut merupakan tanggung jawab peserta untuk menyesuaikan robotnya
+
+terhadap segala kemungkinan, baik yang disebutkan, maupun yang tidak disebutkan.
+       Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+
+B. Peraturan Perlombaan
+   1. Prosedur Pengecekan Robot
+       a. Peserta yang dipanggil untuk pengecekan robot wajib segera menuju area checker.
+       b. Pemanggilan akan dilakukan 3 kali dengan jeda waktu setiap pemanggilan adalah
+            2 menit, jika setelah 3 kali pemanggilan peserta tidak datang maka peserta dianggap
+            tidak mengikuti pertandingan.
+       c. Tim checker akan melakukan pemeriksaan beberapa hal sebagai berikut:
+             1) Tegangan catu daya robot.
+             2) Dimensi robot.
+             3) Kepemilikan robot (kesesuaian robot dengan tim yang akan bertanding).
+       d. Jika robot tidak sesuai dengan ketentuan, maka tim diberikan waktu 5 menit untuk
+            menyesuaikan spesifikasi robot saat itu juga.
+       e. Apabila setelah waktu 5 menit robot peserta masih belum sesuai dengan ketentuan,
+            maka peserta dianggap walk out saat pertandingan tersebut.
+       f. Setelah proses checking, tim wajib berada di area buffer (tunggu) hingga ada
+            panggilan untuk pertandingan.
+       g. Tim diperkenankan keluar dari area buffer dengan izin panitia.
+   2. Peraturan Troubleshooting
+       a. Peraturan troubleshooting yang dimaksud adalah berlaku ketika sudah melakukan
+            pengecekan robot sebelum pertandingan.
+       b. Troubleshooting hanya dapat dilakukan peserta ketika set up, trial robot, dan saat
+            pertandingan sedang berlangsung.
+       c. Ketika waktu set up dan trial telah habis, pertandingan akan tetap dimulai walaupun
+            peserta belum selesai melakukan troubleshooting
+       d. Semua kebutuhan untuk troubleshooting boleh dibawa peserta saat memasuki area
+            perlombaan.
+   Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+
+    e. Peserta dilarang menerima segala jenis peralatan atau komponen dari luar ketika
+        sudah melalui checker hingga selesai pertandingan.
+
+    f. Jika peserta ingin melakukan troubleshooting di pitstop, maka harus mendapat izin
+        dari juri.
+
+   *Jika telah mendapat izin dari juri, selama peserta melakukan troubleshooting,
+   pertandingan akan terus berjalan.
+    g. Panitia tidak menyediakan sumber listrik untuk troubleshooting di arena
+
+        pertandingan.
+3. Robot Set Up dan Trial
+
+    a. Durasi set up dan trial adalah 1 menit.
+    b. Waktu trial dimulai ketika juri memberikan aba-aba atau mengangkat bendera.
+    c. Set up dan trial termasuk pemasangan baterai, pengecekan robot, setting robot, dan
+
+        lain-lain yang berhubungan pada persiapan awal robot sebelum pertandingan.
+    d. Hanya anggota tim yang terdaftar yang diperbolehkan melakukan setting dan trial
+
+        dalam arena pertandingan.
+    e. Setelah waktu Setup dan Trial berakhir, waktu pertandingan akan langsung dimulai.
+
+        Jika robot peserta belum berada pada posisi Start ketika waktu Setup dan Trial
+        berakhir, maka akan mendapatkan sanksi.
+    f. Apabila tim gagal melakukan set up selama waktu yang ditentukan, maka peserta
+        bisa melanjutkan set up setelah waktu pertandingan dimulai, dengan terlebih dahulu
+        meminta izin retry, dan izin tersebut telah diberikan oleh wasit.
+4. Posisi Start
+    a. Penempatan posisi, arah, dan kedudukan pada saat start dari robot yang digunakan
+        adalah bebas, selama robot berada di dalam area start masing-masing.
+    b. Peletakan robot tidak boleh melebihi area start yang telah ditentukan.
+   Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+
+    c. Sebelum lomba dimulai, peserta diwajibkan berdiri dan tidak boleh memegang
+        robot.
+
+    d. Posisi Start untuk masing-masing robot sepenuhnya di dalam kotak start.
+5. Peraturan Retry
+
+    a. Peserta diperbolehkan melakukan retry ketika peserta merasa ada yang kurang
+        sesuai dengan kerja robot atau robot peserta terjadi error.
+
+    b. Peserta diperbolehkan melakukan retry selama waktu pertandingan masih tersisa.
+    c. Syarat melakukan retry adalah :
+
+         1) Peserta yang bertugas sebagai operator harus mengangkat tangan terlebih
+              dahulu, kemudian peserta yang bertugas untuk memegang bendera retry harus
+              mengangkat bendera.
+
+   *Jika tim berjumlah dua orang maka peserta dapat mengangkat tangan terlebih
+   dahulu untuk meminta retry.
+    d. Peserta harus mendapat izin melakukan retry dari wasit sebelum memegang /
+
+        mengambil / membawa robot keluar dari track.
+    e. Syarat retry robot :
+
+           1) Saat melakukan retry, peserta dapat mengambil robot dan atau membawanya
+                keluar dari track tetapi masih berada di arena pertandingan.
+
+           2) Robot diletakkan ke dalam track dan dijalankan kembali dari posisi start.
+           3) Jika saat retry robot membawa objek, maka peserta harus mengembalikan
+
+                objek ke posisi awal pengambilan (posisi sebelum objek diambil).
+           4) Robot dapat mulai beroperasi kembali setelah peserta keluar dari track.
+           5) Pada saat retry dilakukan, perhitungan waktu terus berjalan.
+       Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+C. Arena Perlombaan
+
+   1. Arena Perlombaan
+              Arena perlombaan merupakan tempat berlangsungnya pertandingan antara kedua
+
+       tim untuk menentukan pemenang. Arena ini memiliki ukuran 4 m x 6 m.
+      A. Penyisihan
+
+                               Gambar 1. Ukuran Arena Penyisihan
+Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+B. 16 Besar seterusnya
+
+                   Gambar 2. Ukuran Arena 16 Besar seterusnya
+Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+C. Pembagian Area
+
+                              Gambar 3. Pembagian Area
+    Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+2. Start Zone Transporter
+
+           Start Zone Transporter merupakan tempat start Robot Transporter saat
+    pertandingan. Area ini memiliki total ukuran 35 cm x 35 cm. Robot Transporter harus
+    memasuki area ini 100% apabila start aw
+
+                                  Gambar 4. Start Zone Transporter
+    Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+3. Start Zone Line Follower Transporter
+
+           Start Zone Line Follower Transporter merupakan tempat start Robot Line
+    Follower Transporter saat pertandingan. Area ini memiliki total ukuran ukuran 25 cm x
+    25 cm.
+
+                         Gambar 4. Start Zone Line Follower Transporter
+    Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+4. Pick Zone LEX
+
+           Pick Zone LEX merupakan area mengambil objek LEX yang berada dalam area
+    A. Area ini memiliki total ukuran ukuran 20 cm x 20 cm.
+
+                                      Gambar 5. Pick Zone LEX
+    Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+5. Pick Zone LATERES
+
+           Pick Zone LATERES merupakan area mengambil objek LATERES yang berada
+    dalam area B. Area ini memiliki total ukuran ukuran 8 cm x 8 cm.
+
+                                Gambar 6. Pick Zone LATERES
+    Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+6. Transfer Zone
+
+           Transfer Zone merupakan tempat berlangsungnya perpindahan objek dari Line
+    Follower Transporter kepada robot Transporter, dan sebaliknya. Area ini memiliki total
+    ukuran ukuran 40 cm x 16 cm. Apabila saat drop maupun pick robot Transporter tidak
+    boleh melewati Transfer tanpa toleransi, Apabila robot Line Follower Transporter
+    diperbolehkan melewati Transfer Zone dengan batas maksimal ialah Gripper.
+
+                                       Gambar 7. Transfer Zone
+    Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+7. Drop Zone LATERES
+
+           Drop Zone LATERES merupakan tempat drop/menaruh objek LATERES yang
+    berada dalam area A. Area ini memiliki total ukuran ukuran 20 cm x 20 cm.
+
+                               Gambar 8. Drop Zone LATERES
+    Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+8. Drop Zone LEX
+
+           Drop Zone LEX merupakan tempat drop/menaruh objek LEX yang berada dalam
+    area B. Area ini memiliki total ukuran ukuran 8 cm x 8 cm. Objek LEX dinyatakan sah
+    jika sudah masuk 25%.
+
+                                   Gambar 9. Drop Zone LEX
+    Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+9. Pick Zone AQVAE
+
+           Pick Zone AQVAE merupakan tempat mengambil objek AQVAE yang berada
+    dalam area B. Area ini memiliki total ukuran ukuran 92,4 cm x 60 cm.
+
+                                Gambar 10. Pick Zone AQVAE
+    Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+10. Drop Zone AQVAE
+
+           Drop Zone AQVAE merupakan tempat drop/menaruh objek AQVAE yang berada
+    dalam area A. Area ini memiliki total ukuran ukuran 20 cm x 40 cm.
+
+                                Gambar 11. Drop Zone AQVAE
+    Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+11. Polisi Tidur
+
+           Polisi Tidur merupakan salah satu rintangan dalam perjalanan robot Transporter.
+    Ukuran resmi Polisi Tidur adalah 40 cm x 2 cm x 2 cm. Dimana material yang digunakan
+    terbuat dari 3D Printing berbahan PLA+. Dengan jarak antara Polisi Tidur berjarak 3cm.
+    Dan polisi tidur yang memiliki ukuran 45 cm.
+
+                               Gambar 12. Polisi Tidur
+    Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+12. Gate Invisible
+
+           Gate Invisible merupakan gate yang tidak ada bentuk fisik, gate tersebut sebagai
+    pembatas maksimal robot Line Follower Transporter berjalan, robot Line Follower
+    Transporter diperkenankan melalui jalan tersebut apabila tim sudah berhasil
+    memindahkan 1 LEX dan 2 LATERES.
+
+                                   Gambar 13. Gate Invisible
+    Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+13. Finish Zone
+
+           Finish Zone merupakan tempat finish kedua robot saat pertandingan agar
+    pertandingan dinyatakan selesai. Area ini memiliki total ukuran ukuran 35 cm x 55 cm.
+
+                                     Gambar 14. Finish Zone
+    Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+14. Dinding Arena
+
+           Dinding Arena merupakan dinding pemisah antar jalur dengan tebal 8 mm.
+    Dinding Arena tersebut memiliki tinggi rata 10 cm.
+
+                                 Gambar 15. Dinding Arena
+    Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+15. Tinggi Panggung
+
+         Tinggi Panggung merupakan tinggi area Pick Zone AQVAE. Tinggi Panggung
+  tersebut memiliki tinggi 10 cm.
+
+                                Gambar 16. Tinggi Panggung
+       Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+D. Spesifikasi Objek Pertandingan
+
+    1. LEX
+                LEX merupakan box yang memiliki ornamen berbentuk Neraca, box tersebut
+
+        berada pada area pick zone robot Line Follower.Ukuran resmi Objek bersama adalah
+        5,3 cm x 5,3 cm x 5 cm. Dimana material yang digunakan terbuat dari PLA+ dengan
+        estimasi berat ±40 gram.
+
+                                            Gambar 17. Objek LEX
+    Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+2. LATERES
+
+         LATERES merupakan box yang memiliki ornamen berbentuk brick (Batu Bata),
+    box tersebut berada pada area pick zone robot Line Follower.Ukuran resmi Objek
+    bersama adalah 5,2 cm x 5,2 cm x 5 cm. Dimana material yang digunakan terbuat dari
+    PLA+ dengan estimasi berat ±40 gram.
+
+                                      Gambar 18. Objek LATERES
+      Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+
+3. CATARACTA 1
+           CATARACTA 1 merupakan sebuah gate yang menutup jalur robot Line Follower
+
+    Transporter untuk jalan. Ukuran resmi Objek gate adalah 7,5 cm x 4 cm x 40 cm. Dimana
+    material yang digunakan terbuat dari PLA+ dengan estimasi berat ±200 gram, Objek ini
+    harus di buka (Boleh ditarik, diangkat, dll asal tidak merusak) oleh robot Transporter,
+    Panjang bagian yang dikeluar untuk dicapit oleh robot berukuran 6,2cm. Untuk menuju
+    Finish Zone menunggunakan CATARACTA 2 (24 cm).
+
+                                   Gambar 19. CATARACTA 1
+      Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+4. CATARACTA 2
+
+           CATARACTA 2 merupakan sebuah gate yang menutup jalur robot Line Follower
+    Transporter untuk jalan. Ukuran resmi Objek gate adalah 7,5 cm x 4 cm x 24 cm. Dimana
+    material yang digunakan terbuat dari PLA+ dengan estimasi berat ±110 gram, Objek ini
+    harus di buka (Boleh di tarik, di angkat, dll asal tidak merusak) oleh robot Transporter,
+    Panjang bagian yang dikeluar untuk dicapit oleh robot berukuran 6,2cm.
+
+                                   Gambar 20. CATARACTA 2
+      Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+5. AQVAE
+
+           AQVAE merupakan box yang memiliki ornamen berbentuk tetesan air, box
+    tersebut berada pada titik tengah arena yang hanya akan digunakan untuk babak 16 besar
+    hingga final.Ukuran resmi AQVAE adalah 10 cm x 10 cm x 17,8 cm. Dimana material
+    yang digunakan terbuat dari PLA+ dengan estimasi berat ±100 gram. Objek ini hanya
+    bisa diambil/dipindahkan oleh robot Transporter apabila tim sudah berhasil
+    memindahkan 2 LEX dan 3 LATERES.
+
+                                     Gambar 21. Objek AQVAE
+       Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+
+E. Alur Perlombaan
+    1. Sebelum masuk ke arena pertandingan peserta diwajibkan melalui checker.
+    2. Waktu pertandingan adalah selama 240 detik (4 menit), dimulai ketika juri meniupkan
+        peluit atau mengangkat bendera perlombaan.
+    3. Ukuran track pertandingan seluas 4 m x 6 m.
+
+                                         Gambar 22. Arena Pertandingan
+    4. Area A merupakan area untuk robot Transporter.
+    5. Area B merupakan area untuk robot Line Follower Transporter.
+    6. Area C merupakan area bersama untuk kedua robot.
+    7. Pada satu pertandingan (berisikan 2 tim) di area A terdapat 2 LEX dan 1 AQVAE
+
+        (Objek bersama untuk 2 tim yang bertanding pada babak 16 besar dan seterusnya).
+        Pada area B terdapat 2 LATERES. Pada Area C terdapat 2 LATERES.
+         a) Babak Penyisihan
+
+               1. Pada babak penyisihan, setiap tim akan bermain sebanyak dua kali.
+       Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+
+               2. Pertandingan dinyatakan berakhir ketika :
+                    a. Seluruh tim berhasil memindahkan semua objek pada drop zone yang
+                         benar (2 LEX, 4 LATERES untuk masing-masing tim) dan Finish.
+                    b. Waktu pertandingan telah berakhir.
+
+             3. Tim yang lolos pada babak berikutnya adalah 16/8 tim dengan perolehan nilai
+                 akumulasi terbaik (Sistem ranking). Dengan prioritas penilaian :
+                    a. Point Tertinggi.
+                    b. Waktu tercepat dalam menyelesaikan seluruh misi yang diberikan.
+
+       b) Babak 16/8 besar
+             1. Pada babak ini, pertandingan akan menggunakan sistem battle.
+             2. Pertandingan dinyatakan berakhir ketika :
+                    a. Salah satu tim berhasil membawa objek AQVAE ke Drop Zone AQVAE.
+                    b. Waktu pertandingan telah habis.
+             3. Pada babak 16/8 besar, tim dinyatakan menang MUTLAK apabila berhasil
+                 memindahkan objek AQVAE ke Drop Zone AQVAE.
+             4. Tim yang lolos pada babak berikutnya adalah tim yang menang atas lawannya.
+                 Dengan prioritas penilaian :
+                    a. Menang Mutlak
+                    b. Point Tertinggi
+                    c. Waktu tercepat dalam menyelesaikan seluruh misi yang diberikan.
+
+F. Keterangan Tambahan
+    1. Untuk sanksi penalti waktu akan diakumulasikan pada akhir pertandingan.
+    2. Apabila robot Line Follower bergerak ke area lawan maka peserta harus melakukan
+        retry dan robot dikembalikan ke posisi start.
+  Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+
+3. Tim yang belum dipanggil panitia untuk bertanding dilarang memasuki area
+    pertandingan.
+
+4. Apabila salah satu robot sedang membawa objek seperti LEX/LATERES lalu robot
+    tersebut retry, maka objek akan kembali ke tempat asal mengambil (Apabila
+    mengambil dari Transfer Zone dan sudah sah pada Transfer Zone, maka objek kembali
+    pada Transfer Zone). Apabila sebelum retry ada objek yang dinyatakan sah pada
+    Transfer Zone yang sama dengan objek yang akan di-retry maka peserta bisa memilih:
+    - Objek yang di-retry kembali ke tempat asal (Sebelum terkena Transfer Zone dan
+         point pada Transfer Zone dinyatakan Gugur)
+    - Objek yang di-retry kembali pada Transfer Zone, maka objek yang baru di
+         nyatakan sah pada Transfer Zone harus kembali ke tempat asal dengan Point
+         Transfer Zone dinyatakan gugur.
+
+5. Keputusan Juri dan Wasit adalah MUTLAK.
+Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+
+G. Penentuan Nilai       Keterangan               Point
+    1. Babak Penyisihan                          15/objek
+        No                                       15/objek
+
+1                        LEX                        10
+                                                 5/objek
+2                        LATERES
+                                                    130
+3                Robot mencapai Finish Zone
+
+4  Objek berhasil diletakkan pada Transfer Zone
+
+                         TOTAL
+
+2. Babak Battle          Keterangan                      Point
+    No                                                 15/objek
+                                                       15/objek
+1                        LEX
+                                                           10
+2                        LATERES                        5/objek
+                                                 30/Menang Mutlak
+3                Robot mencapai Finish Zone
+                                                          160
+4  Objek berhasil diletakkan pada Transfer Zone
+
+5                        AQVAE
+
+                         TOTAL
+Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+
+H. Pelanggaran dan Sanksi
+
+No  Jenis Pelanggaran                                             Sanksi
+                                                             Penalti 5 detik
+1 Peserta melakukan start sebelum wasit memulai
+      pertandingan                                           Penalti 5 detik
+
+2 Peserta melakukan retry tidak sesuai dengan                Penalti 5 detik
+      peraturan
+      yang telah ditentukan                                  Penalti 5 detik
+
+3 Robot peserta tidak berada pada posisi START saat          Penalti 5 detik
+      waktu set-up dan trial sudah berakhir
+                                                          Pengurangan 5 poin
+4 Robot peserta melebihi starting zone pada saat posisi
+      START                                                 Retry robot dan
+                                                          Pengurangan 5 poin
+5 Peserta menyentuh robot atau objek di tengah           Retry kedua robot dan
+      pertandingan                                       Pengurangan 15 poin
+
+6 Robot peserta melalui gate invisible sebelum
+      memenuhi syarat
+
+7 Robot memanjat atau lompat selama pertandingan
+
+8 Robot Transporter menyentuh AQVAE sebelum
+      memenuhi syarat
+Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+
+9 Peserta sengaja merusak robot tim lawan              DISKUALIFIKASI
+10 Mengganggu, melecehkan, atau menyerang peserta      DISKUALIFIKASI
+
+       lain dalam bentuk perilaku maupun lisan         DISKUALIFIKASI
+11 Peserta melakukan troubleshooting di pitstop tanpa      1. Peringatan
+
+       seizin panitia (saat telah melewati checker)    2. DISKUALIFIKASI
+                                                       DISKUALIFIKASI
+12 Merusak track
+                                                       DISKUALIFIKASI
+13 Peserta terbukti menggunakan robot yang berbeda
+       dari yang telah didaftarkan
+
+14 Peserta menerima segala jenis peralatan atau
+       komponen dari luar ketika sudah memasuki arena
+       pertandingan
+       Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+
+I. Ketentuan Drop Objek LEX (25%)
+
+J. Addendum Peraturan
+          Bila dirasa perlu, dimungkinkan terjadi perubahan dan penambahan aturan. Bila hal
+
+   ini terjadi, maka akan ditambahkan melalui Adendum aturan. Segala perubahan aturan
+   yang diputuskan dalam pertemuan technical meeting terakhir menjadi acuan terakhir aturan
+   yang berlaku.
+K. Penghargaan
+   Juara 1, Juara 2, Juara 3, Best Design, dan Best Strategy.
+   Keterangan :
+    1. Best Design diambil dari ide dan desain keseluruhan dari robot.
+    2. Best Strategy diambil dari efisiensi dan strategi peserta dalam menyelesaikan misi dari
+
+        semua pertandingan.
+             Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota Surabaya, Jawa Timur 60111
+
+     L. Penutup
+        Informasi lebih lanjut mengenai pelaksanaan Lomba Aquaduct Romana akan
+        diinformasikan melalui website Java Robot Contest XIV dan group chat ketua.
+
+CONTACT PERSON
+    1. Koordinator Perlombaan Aquaduct Romana :
+           a. Billy (089675781402)
+           b. Wisnu (082134716421)
+    2. Koordinator Pendaftaran :
+           a. Aisyah (0881036087367)
+    3. Website
+           a. Website : https://jrc.pens.ac.id/
+
